@@ -17,6 +17,7 @@ class Primitive{
   
   //functions
   void diplay(){
-    
+    rect(x, y, w, h);
+    text(text, x, y);
   }
 }

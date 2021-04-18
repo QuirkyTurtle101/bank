@@ -16,8 +16,11 @@ class Primitive{
   }
   
   //functions
-  void diplay(){
+  void display(){
+    fill(100, 100, 100);
     rect(x, y, w, h);
-    text(text, x, y);
+    textSize(h/2.8);
+    fill(0, 0, 0);
+    text(text, x-(text.length()/2)*15, y+h/20);
   }
 }

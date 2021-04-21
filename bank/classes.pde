@@ -21,6 +21,6 @@ class Primitive{
     rect(x, y, w, h);
     textSize(h/2.8);
     fill(0, 0, 0);
-    text(text, x-(text.length()/2)*15, y+h/20);
+    text(text, x-textWidth(text)/2, y+h/20);
   }
 }
